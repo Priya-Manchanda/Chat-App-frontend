@@ -129,17 +129,9 @@ const FormContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  color:black;
+  color: black;
   align-items: center;
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-  );
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   .brand {
     display: flex;
     align-items: center;
@@ -157,7 +149,7 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     border-radius: 2rem;
     padding: 3rem 5rem;
     input {

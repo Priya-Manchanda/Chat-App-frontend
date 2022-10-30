@@ -118,7 +118,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 3rem;
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   height: 100vh;
   width: 100vw;
 
