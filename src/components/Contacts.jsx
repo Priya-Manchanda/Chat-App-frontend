@@ -96,10 +96,9 @@ const Container = styled.div`
       }
     }
     .contact {
-      background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
       min-height: 5rem;
       cursor: pointer;
-      width: 90%;
+      width: 100%;
       border-radius: 0.2rem;
       padding: 0.4rem;
       display: flex;

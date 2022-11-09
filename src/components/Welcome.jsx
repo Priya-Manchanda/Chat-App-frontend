@@ -5,11 +5,11 @@ import Robot from "../assets/robot.gif";
 export default function Welcome({ currentUser }) {
   return (
     <Container>
-      <img src={Robot} alt="Robot" />
-      <h1>
+      <img src={Robot} alt="Robot" className="responsive"/>
+      <h1 style={{fontSize:"2vw"}}>
         Welcome, <span>{currentUser.username}!</span>
       </h1>
-      <h3>Please select a chat to Start messaging.</h3>
+      <h3 style={{fontSize:"2vw"}}>Please select a chat to Start messaging.</h3>
     </Container>
   );
 }
@@ -19,10 +19,13 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  img {
-    height: 20rem;
+  .responsive {
+    height: 10rem;
   }
   span {
     color: #4e0eff;
+  }
+  h1{
+    margin-top:20px;
   }
 `;
