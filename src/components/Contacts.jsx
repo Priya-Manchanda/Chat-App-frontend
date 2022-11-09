@@ -22,7 +22,7 @@ export default function Contacts({ contacts, currentUser, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>Chat it!</h3>
+            <h3 style={{fontSize:"1.5vw"}}>Chat it!</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -49,13 +49,13 @@ export default function Contacts({ contacts, currentUser, changeChat }) {
           </div>
           <div className="current-user">
             <div className="avatar">
-              <img
+              <img style={{fontSize:"2vw"}}
                 src={`data:image/svg+xml;base64,${currentUserImage}`}
                 alt="avatar"
               />
             </div>
             <div className="username">
-              <h2>{currentUserName}</h2>
+              <h2 style={{fontSize:"1.5vw"}}>{currentUserName}</h2>
             </div>
           </div>
         </Container>
