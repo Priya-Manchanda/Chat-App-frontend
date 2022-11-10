@@ -65,7 +65,7 @@ function Login() {
   };
 
   return (
-    <>
+    <div className="res">
       <FormContainer>
         <form onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
@@ -92,7 +92,7 @@ function Login() {
         </form>
       </FormContainer>
       <ToastContainer />
-    </>
+    </div>
   );
 }
 
@@ -104,7 +104,13 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
+  overflow:hidden;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
+  .res{
+    max-width:400px
+    padding: 0 20px;
+    margin:200px 20px;
+  }
   .brand {
     display: flex;
     align-items: center;
